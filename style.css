@@ -1,0 +1,40 @@
+body {
+	background: #EFEFBB;
+	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	color: white;
+	margin: 0;
+	font-family: rubik;
+}
+
+h1{
+	text-align: center;
+	color: #3e6bb3;
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+.pokedex {
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card{
+	background-color: #3dbf89;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	border-radius: 20px;
+	text-align: center;
+}
+.card-title{
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+.card-subtitle{
+	font-family: 'Montserrat';
+}
+.card-image{
+	width: 280px;
+	
+}
+
