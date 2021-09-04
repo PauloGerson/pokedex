@@ -1,9 +1,11 @@
 body {
-	background: #EFEFBB;
 	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
 	color: white;
 	margin: 0;
 	font-family: rubik;
+}
+li{
+	list-style: none;
 }
 
 h1{
@@ -11,6 +13,7 @@ h1{
 	color: #3e6bb3;
 	font-weight: bold;
 	font-family: 'Montserrat';
+
 }
 .pokedex {
 	display: flex;
@@ -25,6 +28,7 @@ h1{
 	margin-left: 1rem;
 	border-radius: 20px;
 	text-align: center;
+	cursor: pointer;
 }
 .card-title{
 	font-family: 'Ubuntu', sans-serif;
@@ -34,7 +38,25 @@ h1{
 	font-family: 'Montserrat';
 }
 .card-image{
-	width: 280px;
+	width: 180px;
 	
 }
+
+@media only screen and (max-width: 431px) {
+	.card-image{
+		width: 160px;
+	}
+	.card-title{
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 20px;
+		
+	}
+	.card-subtitle{
+		font-family: 'Montserrat';
+		font-size: 15px;
+	}
+	
+	
+	
+  }
 
