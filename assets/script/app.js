@@ -21,7 +21,7 @@ const fetchPokemon = () => {
             return accumulator
         },'')
 
-        const ul = document.querySelector('[data-js="pokedex"]')
+        const ul = document.querySelector('.pokedex')
 
         ul.innerHTML = liPokemons
     })
